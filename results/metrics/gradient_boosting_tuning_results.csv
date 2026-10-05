@@ -1,0 +1,2 @@
+Model,Best_learning_rate,Best_max_depth,Best_min_samples_leaf,Best_min_samples_split,Best_n_estimators,Training_CV_MAE (%),Unseen_Test_MAE (%),Unseen_Test_RMSE (%),Unseen_Test_R2
+Gradient Boosting,0.05,2,1,2,100,0.33792283789009314,0.9432295785528716,1.0172617683970047,0.9737268426994575
