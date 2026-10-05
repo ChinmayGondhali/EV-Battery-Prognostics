@@ -1,0 +1,20 @@
+# Raw battery dataset
+Dataset/*.mat
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Large model files
+*.pkl
+*.joblib
+*.h5
+
+# Google Colab files
+*.csv.tmp
