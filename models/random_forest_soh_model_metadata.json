@@ -1,0 +1,36 @@
+{
+    "model_name": "Random Forest Regressor",
+    "task": "Battery SOH estimation",
+    "target": "SOH_percent",
+    "features": [
+        "cycle",
+        "initial_voltage_V",
+        "final_voltage_V",
+        "mean_voltage_V",
+        "initial_temperature_C",
+        "final_temperature_C",
+        "min_temperature_C",
+        "max_temperature_C",
+        "temperature_rise_C",
+        "discharge_duration_s"
+    ],
+    "training_cells": [
+        "Cell1",
+        "Cell2",
+        "Cell3",
+        "Cell4",
+        "Cell5",
+        "Cell6"
+    ],
+    "held_out_test_cells": [
+        "Cell7",
+        "Cell8"
+    ],
+    "n_training_samples": 366,
+    "n_estimators": 200,
+    "random_state": 42,
+    "evaluation_mae_percent": 0.923317,
+    "evaluation_rmse_percent": 0.949292,
+    "evaluation_r2": 0.97712,
+    "note": "Model trained only on Cell1-Cell6. Cell7-Cell8 were held out for unseen-cell evaluation."
+}
