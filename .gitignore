@@ -18,3 +18,5 @@ __pycache__/
 
 # Google Colab files
 *.csv.tmp
+
+!models/random_forest_soh_model.joblib
