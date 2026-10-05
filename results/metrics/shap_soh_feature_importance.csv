@@ -1,0 +1,11 @@
+Feature,Mean_Absolute_SHAP
+discharge_duration_s,5.463044952863393
+cycle,0.26270874593931
+initial_voltage_V,0.022191291260278866
+mean_voltage_V,0.020256552620109426
+initial_temperature_C,0.011450421898197677
+min_temperature_C,0.0095749228859019
+final_temperature_C,0.009385294940711459
+final_voltage_V,0.007695843559224052
+temperature_rise_C,0.005979051062937108
+max_temperature_C,0.004137594450715644
