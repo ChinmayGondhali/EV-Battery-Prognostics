@@ -20,3 +20,9 @@ __pycache__/
 *.csv.tmp
 
 !models/random_forest_soh_model.joblib
+
+# Raw dataset - do not upload
+Dataset/
+# Runtime/log files
+*.log
+*.deb
